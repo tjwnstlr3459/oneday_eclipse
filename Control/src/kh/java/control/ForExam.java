@@ -190,7 +190,7 @@ public class ForExam {
 			System.out.println();
 		}
 	}
-	
+	//빈공간 피라미드
 	public void star19() {
 		for(int i=0; i<=8; i+=2) {
 			for(int j=i; j<=8; j+=2) {
@@ -217,7 +217,7 @@ public class ForExam {
 			System.out.println();
 		}
 	}
-	
+	// 1><1
 	public void star20() {
 		for(int i=8; i>=0; i-=2) {
 			for(int j=i; j<=8; j+=2) {
@@ -244,7 +244,7 @@ public class ForExam {
 			System.out.println();
 		}
 	}
-	
+	//역피라미드 와 피라미드
 	public void star21() {
 		for(int i=8; i>=0; i-=2) {
 			for(int j=i; j<8; j+=2) {
