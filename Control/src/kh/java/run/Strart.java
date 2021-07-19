@@ -29,7 +29,7 @@ public class Strart {
 		
 		ForExamTeacher ft = new ForExamTeacher();
 		
-		fo.loop1();
+		fe.star16();
 		
 				
 		

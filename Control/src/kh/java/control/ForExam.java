@@ -147,7 +147,6 @@ public class ForExam {
 	}
 	//피라미드
 	public void star16() {
-		
 		for(int i=0; i<=8; i+=2) {
 			for(int j=i; j<8; j+=2) {
 				System.out.print(" ");

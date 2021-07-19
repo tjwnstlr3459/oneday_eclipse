@@ -64,8 +64,8 @@ public class ForExamTeacher {
 			}
 			for(int j=0; j<5-i; j++)
 				System.out.print("*");
+				System.out.println();
 		}
-			System.out.println();
 	}
 	//공백을 이용해 밑으로 커지는
 	public void star11() {
@@ -81,9 +81,8 @@ public class ForExamTeacher {
 	//if문을 활용해 커졌다 작아졌다
 	public void star12() {
 		for(int i=0; i<10; i++) {
-			
 			if(i<5) {
-				for(int j=0; j<i; j++) {
+				for(int j=0; j<1+i; j++) {
 					System.out.print("*");
 				}
 			}else {
